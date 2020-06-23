@@ -1,0 +1,48 @@
+.containerHeader {
+  background: darken(#ecf1f4, 10%);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.menuItem {
+  margin-right: 30px;
+  color: darken(#ecf1f4, 60%);
+
+  .menuItemLink {
+    display: flex;
+    align-items: center;
+    color: darken(#ecf1f4, 60%);
+    text-decoration: none;
+
+    &.menuItemActive {
+      color: darken(#ecf1f4, 20%);
+
+      .menuItemIcon {
+        color: darken(#ecf1f4, 20%);
+      }
+    }
+
+    .menuItemIcon {
+      margin-right: 5px;
+      width: 25px;
+      color: darken(#ecf1f4, 30%);
+    }
+  }
+
+  &:last-child {
+    margin-left: auto;
+  }
+
+  .userGreeting {
+    margin-right: 10px;
+  }
+
+  .logOut {
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

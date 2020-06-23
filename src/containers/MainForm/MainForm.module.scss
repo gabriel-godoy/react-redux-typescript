@@ -1,0 +1,24 @@
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 40px;
+
+  .inputText {
+    padding: 10px;
+    width: 100%;
+
+    &.inputError {
+      border-color: rgba(red, 0.2);
+    }
+  }
+}
+
+.submitButton {
+  font-size: 20px;
+  padding: 20px 0;
+  width: 100%;
+}
